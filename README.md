@@ -13,4 +13,6 @@ Start Date : 2020.12.26
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_65wkqsb4DFAWS
 7701. 염라대왕의 이름 정렬 (SW Expert Academy)
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG
+[2020 카카오 인턴십] 보석 쇼핑
+ - https://programmers.co.kr/learn/courses/30/lessons/67258
 
