@@ -9,6 +9,8 @@ Start Date : 2020.12.26
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
 1256. [S/W 문제해결 응용] 6일차 - K번째 접미어 (SW Expert Academy)
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18GHd6IskCFAZN
+1289. 원재의 메모리 복구하기 (SW Expert Academy)
+ - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV19AcoKI9sCFAZN&categoryId=AV19AcoKI9sCFAZN&categoryType=CODE
 3143. 가장 빠른 문자열 타이핑 (SW Expert Academy)
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_65wkqsb4DFAWS
 7701. 염라대왕의 이름 정렬 (SW Expert Academy)
