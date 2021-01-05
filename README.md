@@ -18,5 +18,6 @@ Start Date : 2020.12.26
  
 [2020 카카오 인턴십] 보석 쇼핑
  - https://programmers.co.kr/learn/courses/30/lessons/67258
+ 
 [2020 카카오 인턴십] 수식 최대화
  - https://programmers.co.kr/learn/courses/30/lessons/67257
