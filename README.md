@@ -17,6 +17,8 @@ Start Date : 2020.12.26
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_65wkqsb4DFAWS
 7701. 염라대왕의 이름 정렬 (SW Expert Academy)
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG
+9480. 민정이와 광직이의 알파벳 공부 (SW Expert Academy)
+ - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AXAdrmW61ssDFAXq
  
  [2018 카카오] 방금그곡
  - https://programmers.co.kr/learn/courses/30/lessons/17683
