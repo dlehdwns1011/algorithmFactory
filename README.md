@@ -29,6 +29,9 @@ Start Date : 2020.12.26
 [2020 카카오 인턴십] 수식 최대화
  - https://programmers.co.kr/learn/courses/30/lessons/67257
  
+[프로그래머스] 두 개 뽑아서 더하기
+ - https://programmers.co.kr/learn/courses/30/lessons/68644
+ 
 [프로그래머스] 삼각 달팽이
  - https://programmers.co.kr/learn/courses/30/lessons/68645
  
