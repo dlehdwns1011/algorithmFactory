@@ -34,4 +34,9 @@ Start Date : 2020.12.26
  
 [프로그래머스] 삼각 달팽이
  - https://programmers.co.kr/learn/courses/30/lessons/68645
+
+[프로그래머스] 이진 변환 반복하기
+ - https://programmers.co.kr/learn/courses/30/lessons/70129
+ 
+
  
