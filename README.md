@@ -20,8 +20,11 @@ Start Date : 2020.12.26
 9480. 민정이와 광직이의 알파벳 공부 (SW Expert Academy)
  - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AXAdrmW61ssDFAXq
  
- [2018 카카오] 방금그곡
+[2018 카카오] 방금그곡
  - https://programmers.co.kr/learn/courses/30/lessons/17683
+ 
+[2020 카카오 인턴십] 경주로 건설.cpp
+  - https://programmers.co.kr/learn/courses/30/lessons/67259
  
 [2020 카카오 인턴십] 보석 쇼핑
  - https://programmers.co.kr/learn/courses/30/lessons/67258
