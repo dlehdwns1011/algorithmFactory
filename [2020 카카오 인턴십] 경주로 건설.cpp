@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//dfs로 풀어보았음
+//dfs로 풀어보았음.
 int boardsize = 0;
 int arr[25][25];
 bool visit[25][25];
