@@ -1,96 +1,87 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <queue>
 
 using namespace std;
+int visit[25][25] = { 0, };
+int dis[25][25][4] = { 0, };
+int dx[4] = { 0, 1, -1, 0 };
+int dy[4] = { 1, 0, 0, -1 };
 
-//dfs로 풀어보았음.
-int boardsize = 0;
-int arr[25][25];
-bool visit[25][25];
-int minC = 987654321;
-
-void dfs(int i, int j, int cost, int dir)
+struct Sdata
 {
-	if (cost >= minC) return;
-
-	visit[i][j] = true;
-
-	if (i == boardsize - 1 && j == boardsize - 1)
+	Sdata(int a, int b, int c)
 	{
-		if (minC > cost)
-		{
-			minC = cost;
-			return;
-		}
+		x = a; y = b; dir = c;
 	}
-
-	// 주변 탐색
-	bool result = false;
-	//하
-	if (i != boardsize - 1)
-	{
-		if (visit[i + 1][j] == false && arr[i + 1][j] != 1)
-		{
-			if (dir == 1 || dir == -1)
-				dfs(i + 1, j, cost + 100, 1);
-			else
-				dfs(i + 1, j, cost + 600, 1);
-			visit[i + 1][j] = false;
-		}
-	}
-	//우
-	if (j != boardsize - 1)
-	{
-		if (visit[i][j + 1] == false && arr[i][j + 1] != 1)
-		{
-			if (dir == 3 || dir == -1)
-				dfs(i, j + 1, cost + 100, 3);
-			else
-				dfs(i, j + 1, cost + 600, 3);
-			visit[i][j + 1] = false;
-		}
-	}
-	//상
-	if (i != 0)
-	{
-		if (visit[i - 1][j] == false && arr[i - 1][j] != 1)
-		{
-			if (dir == 0)
-				dfs(i - 1, j, cost + 100, 0);
-			else
-				dfs(i - 1, j, cost + 600, 0);
-			visit[i - 1][j] = false;
-		}
-	}
-	//좌
-	if (j != 0)
-	{
-		if (visit[i][j - 1] == false && arr[i][j - 1] != 1)
-		{
-			if (dir == 2)
-				dfs(i, j - 1, cost + 100, 2);
-			else
-				dfs(i, j - 1, cost + 600, 2);
-			visit[i][j - 1] = false;
-		}
-	}
-}
+	int x;
+	int y;
+	int dir;
+	//0 우
+	//1 하
+	//2 상
+	//3 좌
+};
 
 int solution(vector<vector<int>> board) {
-	boardsize = board.size();
-	for (int i = 0; i < boardsize; ++i)
-	{// i -> 행
-		for (int j = 0; j < board[i].size(); ++j)
-		{// j -> 열
-			arr[i][j] = board[i][j];
-			visit[i][j] = false;
+	int boardsize = board.size();
+
+	queue<Sdata> queue;
+	if (board[1][0] == 0)
+	{
+		queue.push(Sdata(1, 0, 1));
+		dis[1][0][1] = 1;
+		visit[1][0] = 1;
+	}
+	if (board[0][1] == 0)
+	{
+		queue.push(Sdata(0, 1, 0));
+		dis[0][1][0] = 1;
+		visit[0][1] = 1;
+	}
+	visit[0][0] = 1;
+
+
+	while (!queue.empty())
+	{
+		int px = queue.front().x;
+		int py = queue.front().y;
+		int pdir = queue.front().dir;
+		queue.pop();
+
+		for (int i = 0; i < 4; ++i)
+		{
+			int nx = px + dx[i];
+			int ny = py + dy[i];
+			if (0 <= nx && nx < boardsize && 0 <= ny && ny < boardsize)
+			{
+				if (board[nx][ny] == 0)
+				{
+					int plus = 1;
+					if (pdir != i) plus = 6;
+
+					if (visit[nx][ny] == 0)
+					{
+						queue.push(Sdata(nx, ny, i));
+						dis[nx][ny][i] = dis[px][py][i] + plus;
+						visit[nx][ny] = 1;
+					}
+					else 
+					{
+						if (dis[nx][ny][i] >= dis[px][py][i] + plus)
+						{
+							queue.push(Sdata(nx, ny, i));
+							dis[nx][ny][i] = dis[px][py][i] + plus;
+						}
+					}
+				}
+			}
 		}
+
 	}
 
-	dfs(0, 0, 0, -1);
-
-	return minC;
+	return min(dis[boardsize - 1][boardsize - 1]) * 100;
 }
 
 
@@ -117,7 +108,7 @@ int main()
 	}
 	
 	auto result = solution(board);
-
+	 
 	//for (int i = 0; i < result.size(); i++)
 	{
 		cout << result << " ";
