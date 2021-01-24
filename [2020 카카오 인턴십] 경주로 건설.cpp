@@ -4,7 +4,7 @@
 #include <queue>
 
 using namespace std;
-int visit[25][25] = { 0, };
+int visit[25][25][4] = { 0, };
 int dis[25][25][4] = { 0, };
 int dx[4] = { 0, 1, -1, 0 };
 int dy[4] = { 1, 0, 0, -1 };
@@ -26,21 +26,24 @@ struct Sdata
 
 int solution(vector<vector<int>> board) {
 	int boardsize = board.size();
-
+	int min = 987654321;
 	queue<Sdata> queue;
 	if (board[1][0] == 0)
 	{
 		queue.push(Sdata(1, 0, 1));
 		dis[1][0][1] = 1;
-		visit[1][0] = 1;
+		visit[1][0][1] = 1;
 	}
 	if (board[0][1] == 0)
 	{
 		queue.push(Sdata(0, 1, 0));
 		dis[0][1][0] = 1;
-		visit[0][1] = 1;
+		visit[0][1][0] = 1;
 	}
-	visit[0][0] = 1;
+	visit[0][0][0] = 1;
+	visit[0][0][1] = 1;
+	visit[0][0][2] = 1;
+	visit[0][0][3] = 1;
 
 
 	while (!queue.empty())
@@ -49,6 +52,12 @@ int solution(vector<vector<int>> board) {
 		int py = queue.front().y;
 		int pdir = queue.front().dir;
 		queue.pop();
+
+		if (px == py && px == boardsize - 1)
+		{
+			if (min > (dis[boardsize - 1][boardsize - 1][pdir]) * 100)
+				min = (dis[boardsize - 1][boardsize - 1][pdir]) * 100;
+		}
 
 		for (int i = 0; i < 4; ++i)
 		{
@@ -61,18 +70,18 @@ int solution(vector<vector<int>> board) {
 					int plus = 1;
 					if (pdir != i) plus = 6;
 
-					if (visit[nx][ny] == 0)
+					if (visit[nx][ny][i] == 0)
 					{
 						queue.push(Sdata(nx, ny, i));
-						dis[nx][ny][i] = dis[px][py][i] + plus;
-						visit[nx][ny] = 1;
+						dis[nx][ny][i] = dis[px][py][pdir] + plus;
+						visit[nx][ny][i] = 1;
 					}
 					else 
 					{
-						if (dis[nx][ny][i] >= dis[px][py][i] + plus)
+						if (dis[nx][ny][i] >= dis[px][py][pdir] + plus)
 						{
 							queue.push(Sdata(nx, ny, i));
-							dis[nx][ny][i] = dis[px][py][i] + plus;
+							dis[nx][ny][i] = dis[px][py][pdir] + plus;
 						}
 					}
 				}
@@ -81,7 +90,7 @@ int solution(vector<vector<int>> board) {
 
 	}
 
-	return min(dis[boardsize - 1][boardsize - 1]) * 100;
+	return min;
 }
 
 
