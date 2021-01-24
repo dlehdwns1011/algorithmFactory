@@ -8,7 +8,7 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	int testnum = 0;
+	int testnum;
 	cin >> testnum;
 
 	
