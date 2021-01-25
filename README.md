@@ -41,5 +41,7 @@ Start Date : 2020.12.26
 [프로그래머스] 이진 변환 반복하기
  - https://programmers.co.kr/learn/courses/30/lessons/70129
  
+ 패턴 마디의 길이 (SW Expert Academy)
+  - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AV5P1kNKAl8DFAUq
 
  
