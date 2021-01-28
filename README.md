@@ -45,9 +45,6 @@ K번째 접미어.cpp - 문자열 정렬
 이진 변환 반복하기.cpp - Binary Number Using String
  - https://programmers.co.kr/learn/courses/30/lessons/70129
  
-청소년 상어.cpp - 
- - 
- 
 최적 경로.cpp - DFS
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
  
