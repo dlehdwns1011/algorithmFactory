@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-// �ι�° �õ�
+// µÎ¹øÂ° ½Ãµµ
 
 using namespace std;
 vector<string> v;
@@ -61,7 +61,7 @@ int main()
 
 
 
-// ó�� �õ�
+// Ã³À½ ½Ãµµ
 #include <iostream>
 #include <vector>
 #include <algorithm>
