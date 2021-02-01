@@ -18,6 +18,9 @@ K번째 접미어.cpp - 문자열 정렬
 구독자 전쟁.cpp - 집합 문제
  - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AXMCXV_qVgkDFAWv
  
+내적.cpp - 내적 구하기
+ - https://programmers.co.kr/learn/courses/30/lessons/70128
+ 
 두 개 뽑아서 더하기.cpp - 반복문
  - https://programmers.co.kr/learn/courses/30/lessons/68644
  
