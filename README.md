@@ -57,3 +57,8 @@ K번째 접미어.cpp - 문자열 정렬
 패턴 마디의 길이.cpp - 문자열 탐색
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5P1kNKAl8DFAUq
  
+폰켓몬.cpp - unique / compare(combination)
+ - https://programmers.co.kr/learn/courses/30/lessons/1845
+ 
+ 
+ 
