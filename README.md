@@ -51,6 +51,9 @@ K번째 접미어.cpp - 문자열 정렬
 이진 변환 반복하기.cpp - Binary Number Using String
  - https://programmers.co.kr/learn/courses/30/lessons/70129
  
+제곱 팰린드롬 수.cpp - 제곱수, 문자열 앞뒤 일치 확인
+ - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AXO72aaqPrcDFAXS 
+ 
 진용이네 주차타워.cpp
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
  
