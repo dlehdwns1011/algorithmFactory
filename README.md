@@ -56,10 +56,7 @@ K번째 접미어.cpp - 문자열 정렬
  
 진용이네 주차타워.cpp
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
- 
-청소년 상어.cpp - 시뮬레이션
- - https://www.acmicpc.net/problem/19236
- 
+
 최적 경로.cpp - DFS
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
  
