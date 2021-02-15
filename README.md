@@ -3,6 +3,9 @@ dongjun.lee's algorithm Quiz Factory
 
 Start Date : 2020.12.26
 
+3진법 뒤집기.cpp - 스택 , 3진법
+ - https://programmers.co.kr/learn/courses/30/lessons/68935
+
 K번째 접미어.cpp - 문자열 정렬
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18GHd6IskCFAZN
  
