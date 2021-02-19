@@ -60,6 +60,9 @@ K번째 접미어.cpp - 문자열 정렬
 진용이네 주차타워.cpp
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
 
+초심자의 회문 검사.cpp
+ - https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=2&contestProbId=AV5PyTLqAf4DFAUq&categoryId=AV5PyTLqAf4DFAUq&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=2&pageSize=10&pageIndex=1&&&&&&&&&&
+
 최적 경로.cpp - DFS
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
  
