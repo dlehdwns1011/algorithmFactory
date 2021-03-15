@@ -26,6 +26,9 @@ K번째 접미어.cpp - 문자열 정렬
  
 두 개 뽑아서 더하기.cpp - 반복문
  - https://programmers.co.kr/learn/courses/30/lessons/68644
+
+메뉴 리뉴얼.cpp - 재귀로 부분함수 구하기*
+ - https://programmers.co.kr/learn/courses/30/lessons/72411
  
 문자열 동화.cpp - 같은 문자열로 만들기
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXMCa8EaVioDFAWv
