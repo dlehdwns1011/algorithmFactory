@@ -50,6 +50,9 @@ K번째 접미어.cpp - 문자열 정렬
  
 석찬이의 받아쓰기.cpp - char 비교
  - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AW-hOY5KeEIDFAVg#
+
+소수 찾기.cpp
+ - https://programmers.co.kr/learn/courses/30/lessons/12921
  
 염라대왕의 이름 정렬.cpp - 문자열 정렬
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG
