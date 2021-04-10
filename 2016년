@@ -1,0 +1,15 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+string solution(int a, int b) {
+    int mon_date[14] = {0,31,29,31,30,31,30,31,31,
+                        30,31,30,31};
+    int date = b;
+    for(int i = 1 ; i < a ; ++i)
+        date += mon_date[i];
+    date %= 7;
+    string day[7] = {"THU","FRI","SAT","SUN","MON","TUE","WED"};
+    return day[date];
+}
