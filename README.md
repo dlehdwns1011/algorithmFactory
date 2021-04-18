@@ -99,6 +99,9 @@ K번째 접미어.cpp - 문자열 정렬
 풍선 터트리기.cpp - 문제 해석
  - https://programmers.co.kr/learn/courses/30/lessons/68646
 
+프린트.cpp - 우선 순위 큐
+ - https://programmers.co.kr/learn/courses/30/lessons/42587
+
 후보키.cpp - 재귀 부분집합, 정렬
  - https://programmers.co.kr/learn/courses/30/lessons/42890
  
