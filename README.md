@@ -32,6 +32,9 @@ K번째 접미어.cpp - 문자열 정렬
 
 메뉴 리뉴얼.cpp - 재귀로 부분함수 구하기*
  - https://programmers.co.kr/learn/courses/30/lessons/72411
+
+모의고사.cpp
+ - https://programmers.co.kr/learn/courses/30/lessons/42840
  
 문자열 동화.cpp - 같은 문자열로 만들기
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXMCa8EaVioDFAWv
