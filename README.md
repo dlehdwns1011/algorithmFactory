@@ -11,6 +11,9 @@ Start Date : 2020.12.26
 
 K번째 접미어.cpp - 문자열 정렬
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18GHd6IskCFAZN
+
+K번째수.cpp - set
+ - https://programmers.co.kr/learn/courses/30/lessons/42748
  
 가장 빠른 문자열 타이핑.cpp - SubString
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_65wkqsb4DFAWS
