@@ -20,7 +20,10 @@ K번째수.cpp - set
  
 간단한 369게임.cpp - Number
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PTeo6AHUDFAUq
- 
+
+같은 숫자는 싫어.cpp
+ - https://programmers.co.kr/learn/courses/30/lessons/12906
+
 경주로 건설.cpp - BFS
  - https://programmers.co.kr/learn/courses/30/lessons/67259
  
