@@ -66,6 +66,9 @@ K번째수.cpp - set
 소수 찾기.cpp
  - https://programmers.co.kr/learn/courses/30/lessons/12921
  
+약수의 합.cpp
+ - https://programmers.co.kr/learn/courses/30/lessons/12928
+ 
 염라대왕의 이름 정렬.cpp - 문자열 정렬
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG
  
