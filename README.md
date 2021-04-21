@@ -26,6 +26,9 @@ K번째수.cpp - set
 
 경주로 건설.cpp - BFS
  - https://programmers.co.kr/learn/courses/30/lessons/67259
+
+괄호 회전하기.cpp - 완전 탐색
+ - https://programmers.co.kr/learn/courses/30/lessons/76502
  
 구독자 전쟁.cpp - 집합 문제
  - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AXMCXV_qVgkDFAWv
@@ -74,6 +77,9 @@ K번째수.cpp - set
  
 원재의 메모리 복구하기.cpp - Binary Number Using String
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV19AcoKI9sCFAZN&categoryId=AV19AcoKI9sCFAZN&categoryType=CODE
+
+음양 더하기.cpp
+ - https://programmers.co.kr/learn/courses/30/lessons/76501
  
 이진 변환 반복하기.cpp - Binary Number Using String
  - https://programmers.co.kr/learn/courses/30/lessons/70129
