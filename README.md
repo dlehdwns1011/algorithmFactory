@@ -69,8 +69,11 @@ K번째수.cpp - set
 소수 찾기.cpp
  - https://programmers.co.kr/learn/courses/30/lessons/12921
  
- 시험 감독.cpp
+시험 감독.cpp
   - https://www.acmicpc.net/problem/13458
+
+약수의 개수와 덧셈.cpp
+ - https://programmers.co.kr/learn/courses/30/lessons/77884?language=cpp
  
 약수의 합.cpp
  - https://programmers.co.kr/learn/courses/30/lessons/12928
