@@ -24,6 +24,9 @@ K번째수.cpp - set
 같은 숫자는 싫어.cpp
  - https://programmers.co.kr/learn/courses/30/lessons/12906
 
+거리두기 확인하기.cpp - p2p
+ - https://programmers.co.kr/learn/courses/30/lessons/81302
+
 경주로 건설.cpp - BFS
  - https://programmers.co.kr/learn/courses/30/lessons/67259
 
