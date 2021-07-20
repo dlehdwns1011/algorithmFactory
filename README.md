@@ -105,6 +105,9 @@ K번째수.cpp - set
 초심자의 회문 검사.cpp
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=2&contestProbId=AV5PyTLqAf4DFAUq&categoryId=AV5PyTLqAf4DFAUq&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=2&pageSize=10&pageIndex=1&&&&&&&&&&
 
+최약수.cpp - 진짜 별로...
+ - https://swexpertacademy.com/main/solvingProblem/solvingProblem.do
+
 최적 경로.cpp - DFS
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
 
