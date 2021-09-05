@@ -71,6 +71,9 @@ K번째수.cpp - set
  
 수식 최대화.cpp - 수식, 경우의 수
  - https://programmers.co.kr/learn/courses/30/lessons/67257
+
+스타 수열.cpp - 부분 집합 / 순간순간 집합 만들어서 저장하기
+ - https://programmers.co.kr/learn/courses/30/lessons/70130
  
 석찬이의 받아쓰기.cpp - char 비교
  - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AW-hOY5KeEIDFAVg#
