@@ -24,6 +24,9 @@ K번째수.cpp - set
 간단한 369게임.cpp - Number
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PTeo6AHUDFAUq
 
+간단한 압축 풀기.cpp - 문자열 조건
+ - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PmkDKAOMDFAUq
+
 같은 숫자는 싫어.cpp
  - https://programmers.co.kr/learn/courses/30/lessons/12906
 
