@@ -92,6 +92,9 @@ K번째수.cpp - set
  
 약수의 합.cpp
  - https://programmers.co.kr/learn/courses/30/lessons/12928
+
+없는 숫자 더하기.cpp - vector의 합 accumulate
+ - https://programmers.co.kr/learn/courses/30/lessons/86051
  
 염라대왕의 이름 정렬.cpp - 문자열 정렬
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG
