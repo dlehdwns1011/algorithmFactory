@@ -54,6 +54,9 @@ K번째수.cpp - set
 메뉴 리뉴얼.cpp - 재귀로 부분함수 구하기*
  - https://programmers.co.kr/learn/courses/30/lessons/72411
 
+모두 0으로 만들기 - DFS
+ - https://programmers.co.kr/learn/courses/30/lessons/76503
+
 모의고사.cpp
  - https://programmers.co.kr/learn/courses/30/lessons/42840
  
