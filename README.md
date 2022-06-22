@@ -111,6 +111,9 @@ K번째수.cpp - set
 이진 변환 반복하기.cpp - Binary Number Using String
  - https://programmers.co.kr/learn/courses/30/lessons/70129
 
+입국심사.cpp - 이분탐색
+ - https://programmers.co.kr/learn/courses/30/lessons/43238
+
 자릿수 더하기.cpp
  - https://programmers.co.kr/learn/courses/30/lessons/12931
  
