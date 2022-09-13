@@ -123,6 +123,9 @@ K번째수.cpp - set
 제곱 팰린드롬 수.cpp - 제곱수, 문자열 앞뒤 일치 확인
  - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AXO72aaqPrcDFAXS 
  
+줄 서는 방법.cpp - 팩토리얼 / 규칙
+ - https://school.programmers.co.kr/learn/courses/30/lessons/12936
+
 진용이네 주차타워.cpp
  - https://swexpertacademy.com/main/code/problem/problemSolver.do
 
