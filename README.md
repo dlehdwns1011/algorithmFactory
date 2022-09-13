@@ -41,7 +41,10 @@ K번째수.cpp - set
 
 괄호 회전하기.cpp - 완전 탐색
  - https://programmers.co.kr/learn/courses/30/lessons/76502
- 
+
+교점에 별 만들기.cpp - 구현
+ - https://school.programmers.co.kr/learn/courses/30/lessons/87377
+
 구독자 전쟁.cpp - 집합 문제
  - https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AXMCXV_qVgkDFAWv
  
