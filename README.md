@@ -18,6 +18,9 @@ K번째 접미어.cpp - 문자열 정렬
 K번째수.cpp - set
  - https://programmers.co.kr/learn/courses/30/lessons/42748
  
+가장 가까운 같은 글자.cpp - Map  활용해보기
+ - https://school.programmers.co.kr/learn/courses/30/lessons/142086?language=cpp
+ 
 가장 긴 팰린드롬.cpp - 문자열, 시간복잡도!
  - https://programmers.co.kr/learn/courses/30/lessons/12904#qna
  
