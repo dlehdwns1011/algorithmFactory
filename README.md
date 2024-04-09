@@ -116,6 +116,9 @@ K번째수.cpp - set
  
 염라대왕의 이름 정렬.cpp - 문자열 정렬
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG
+
+왕실의 기사 대결.cpp - BFS + 시뮬 : 삼성 기출
+ - https://www.codetree.ai/training-field/frequent-problems/problems/royal-knight-duel/description?page=1&pageSize=20
  
 원재의 메모리 복구하기.cpp - Binary Number Using String
  - https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV19AcoKI9sCFAZN&categoryId=AV19AcoKI9sCFAZN&categoryType=CODE
