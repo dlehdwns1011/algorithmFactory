@@ -63,6 +63,9 @@ K번째수.cpp - set
 디펜스 게임.cpp - priority_queue / 이분탐색
  - https://school.programmers.co.kr/learn/courses/30/lessons/142085
 
+루돌프의 반란.cpp - 시뮬레이션
+ - https://www.codetree.ai/training-field/frequent-problems/problems/rudolph-rebellion/description?page=1&pageSize=20
+
 마법사와 복제.cpp - 시뮬레이션 / 배열 사용하기
  - https://www.acmicpc.net/problem/23290
 
